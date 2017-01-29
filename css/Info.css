@@ -1,0 +1,63 @@
+body{
+	width: 100%;
+	height: 120rem;
+}
+#FindInfo{
+	position: absolute;
+	top: 8rem;
+	left: 0%;
+	width: 100%;
+	display: block;
+	height: 112rem;
+}
+#FindInfobasic{
+	position: absolute;
+	top: 0;
+	left:0;
+	height: 18rem;
+	width: 100%;
+}
+#basicphoto{
+	position: absolute;
+	border-radius: 50rem;
+	top: 1rem;
+	left: 5%;
+    height: 15rem;
+	width: 26%;
+}
+#basicname{
+	position: absolute;
+	top: 7rem;
+	height: 8rem;
+	left: 50%;
+	width: 40%;
+	font-size: 5rem;
+	font-weight: bold;
+	font-family: "幼圆";
+	color: #30425A;
+}
+.basic{
+	position: absolute;
+	left: 10%;
+	height: 6rem;
+	width: 100%;
+	color: #30425A;
+	font-size: 4rem;
+	font-family: "幼圆";
+}
+#basicusername{
+    top: 25rem;
+}
+#basicsex{
+	top: 33rem;
+}
+#basicbirthday{
+	top: 41rem;
+}
+#basiccollege{
+	top: 49rem;
+}
+#basicclass{
+	top: 57rem;
+}
+

@@ -1,0 +1,269 @@
+body{
+	width: 100%;
+	height: 120rem;
+}
+#personinfo{
+	position: absolute;
+	top: 8rem;
+	left: 0;
+	height: 10rem;
+	width: 100%;
+}
+#username{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	text-align: center;
+	color: #30425A;
+	font-size: 3rem;
+	width: 100%;
+	height: 3rem;
+	font-family: "幼圆";
+	font-weight: bold;
+}
+#selectyear{
+	position: absolute;
+	top: 18rem;
+	left: 50%;
+	height: 5rem;
+	width: 60%;
+	margin-left: -30%;
+	color: #30425A;
+	font-size: 2.5rem;
+	border-radius: 1rem;
+	outline: medium;
+	font-family: "幼圆";
+	font-weight: bold;
+}
+.option{
+	font-size: 1rem;
+	outline: medium;
+	color: #30425A;
+	font-family: "幼圆";
+	font-weight: bold;
+	z-index: 0;
+}
+#Show{
+	position: absolute;
+	top: 27rem;
+	left: 0%;
+	height: 10rem;
+	width: 100%;
+	display: block;
+}
+#ShowTermone{
+	border:1px solid #30425A;
+	float: left;
+	width: 45%;
+	margin-left: 2.5%;
+	border-radius: 1rem;
+	position: relative;
+}
+#ShowTermtwo{
+	border:1px solid #30425A;
+	float: right;
+	width: 45%;
+	margin-right: 2.5%;
+	border-radius: 1rem;
+	position: relative;
+}
+.scoretitle{
+	height: 4.5rem;
+	width: 100%;
+	color: #fff;
+	background-color: #30425A;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: "幼圆";
+	text-align: center;
+	border-radius: 1rem;
+}
+.score{
+	position: absolute;
+	/*top: 4.5rem;*/
+	width: 100%;
+	height: 12rem;
+	left: 0%;
+	color: #30425A;
+	font-family: "幼圆";
+	border-bottom: 0.2rem dashed #30425A;
+}
+.scoreTitle{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.midterm{
+	position: absolute;
+	top: 5rem;
+	left: 0%;
+	font-size: 2.8rem;
+	height: 3.5rem;
+	width: 50%;
+}
+.paper{
+	position: absolute;
+	top: 5rem;
+	left: 50%;
+	font-size: 2.8rem;
+	height: 3.5rem;
+	width: 50%;
+}
+.usual{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 2.8rem;
+	height: 3.5rem;
+	width: 50%;
+}
+.finals{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	font-size: 2.8rem;
+	height: 3.5rem;
+	width: 50%;
+}
+#floatdiv{
+	position: absolute;
+	top: 27rem;
+	left: 50%;
+	height: 45rem;
+	width: 70%;
+	margin-left: -35%;
+	border: 0.5rem solid #30425A;
+	border-radius: 1rem;
+	display: none;
+	font-family: "幼圆";
+}
+.floattop{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5rem;
+	width: 100%;
+	background-color: #30425A;
+}
+.floattop img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 4rem;
+	width: 10%;
+}
+.floattitle{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 30%;
+	margin-left: -15%;
+	color: #fff;
+	font-size: 3rem;
+}
+#floatname{
+	position: absolute;
+	top: 6rem;
+	left: 5%;
+	height: 6rem;
+	width: 100%;
+	font-weight: bold;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatCode{
+	position: absolute;
+	top: 12rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatSchool{
+	position: absolute;
+	top: 16rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatType{
+	position: absolute;
+	top: 20rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatCredit{
+	position: absolute;
+	top: 24rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatUsualScore{
+	position: absolute;
+	top: 28rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatpaperscore{
+	position: absolute;
+	top: 32rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatEndScore{
+	position: absolute;
+	top: 36rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+#floatExam{
+	position: absolute;
+	top: 40rem;
+	left: 5%;
+	width: 95%;
+	height: 3rem;
+	color: #30425A;
+	font-size: 2.5rem;
+}
+@media (min-width: 1024px){
+	.title{
+		height: 5rem;
+	}
+	.title p{
+        font-size: 2rem;
+	}
+	.title img{
+		left: 3%;
+		top: 1rem;
+		height: 4rem;
+		width: 4%;
+	}
+	.option{
+		font-size: 2rem;
+		outline: medium;
+	    }
+}

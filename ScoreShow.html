@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ScoreShow</title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/ScoreShow.css">
+    <link rel="stylesheet" type="text/css" href="css/LeftandTop.css">
+</head>
+<body>
+    <div class="title">
+    	<p>西邮成绩</p>
+    	<img src="image/leftside.png" onclick="judgeleftshow()">
+    </div>
+    <div id="FindScore">
+          <div id="personinfo">
+            <p id="username"></p>
+          </div>
+          <select id="selectyear">
+          </select>
+          <div id="Show">
+            <div id="ShowTermone">
+                <div class="scoretitle">第一学期</div>
+                <!--    <div class="score">
+                            <div class="scoreTitle">MATLAB程序设计基础</div>
+                            <div class="midterm">期中：100</div>
+                            <div class="paper">卷面：100</div>
+                            <div class="usual">平时：100</div>
+                            <div class="finals">总评：100</div>
+                    </div> -->
+                </div>
+                <div id="ShowTermtwo">
+                    <div class="scoretitle">第二学期</div>
+                </div>
+          </div>
+    </div>
+    <div id="floatdiv">
+    	<div class="floattop">
+    		<div class="floattitle">成绩详情</div>
+    		<img src="image/close.png" onclick="CloseFloat()">
+    		<div id="floatname"></div>
+    		<div id="floatCode"></div>
+    		<div id="floatSchool"></div>
+    		<div id="floatType"></div>
+    		<div id="floatCredit"></div>
+    		<div id="floatUsualScore"></div>
+    		<div id="floatpaperscore"></div>
+    		<div id="floatEndScore"></div>
+    		<div id="floatExam"></div>
+    	</div>
+    </div>
+    <div id="ShowLeft">
+        <div class="lefttop">
+            <img src="image/photo.png" id="userphoto">
+            <div id="leftname">XXX</div>
+        </div>
+        <div class="leftmid">
+            <div id="findscore" class="functionblank" onclick="judgeleftshow()">
+                <img src="image/findscore.png">
+                <p>成绩查询</p>
+            </div>
+            <div id="exam" class="functionblank" onclick="MakeUpFind()">
+                <img src="image/exam.png">
+                <p>补考查询</p>
+            </div>
+              <div id="information" class="functionblank" onclick="InfoFind()">
+                <img src="image/information.png">
+                <p>信息查询</p>
+            </div>
+            <div id="library" class="functionblank" onclick="LibraryFind()">
+                <img src="image/library.png">
+                <p>图书查询</p>
+            </div>
+            <div id="cancel" class="functionblank" onclick="ReturnBack()">
+                <img src="image/cancel.png">
+                <p>注销</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">西安邮电大学移动应用开发俱乐部</div>
+    <script type="text/javascript" src = "js/jquery.js"></script>
+    <script type="text/javascript" src = "js/jquery.cookie.js"></script>
+    <script type="text/javascript" src = "js/Left.js"></script>
+    <script type="text/javascript" src = "js/ScoreShow.js"></script>
+</body>
+</html>

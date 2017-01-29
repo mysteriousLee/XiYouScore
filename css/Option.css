@@ -1,0 +1,52 @@
+.optionbody{
+	position: absolute;
+    top: 8rem;
+    left: 0;
+    height: 40rem;
+    width: 100%;
+}
+#select{
+	position: absolute;
+	top: 10rem;
+	left: 10%;
+	height: 6rem;
+	width: 80%;
+	color: #30425A;
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: "幼圆";
+}
+.selectbox{
+    position: absolute;
+	left: 20%;
+	height: 4rem;
+	width: 30%;
+	color: #30425A;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: "幼圆";
+}
+.selectbox input{
+	width: 20%;
+	height: 2rem;
+}
+#chinesebox{
+	top: 18rem;
+}
+#englishbox{
+	top: 25rem;
+}
+#submit{
+	position: absolute;
+	top: 34rem;
+	left: 50%;
+	height: 5rem;
+	width: 30%;
+	margin-left: -15%;
+	background-color: #30425A;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: "幼圆";
+	border-radius: 2rem;
+}

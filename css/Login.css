@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	font-family: "微软雅黑";
+}
+.backImg{
+	z-index: -1;
+	width:100%;
+}
+.titleImg{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	height:200px;
+	width:200px;
+	margin-left: -100px;
+}
+.inputStyle{
+	height: 100px;
+	width: 80%;
+	background-color: #fff;
+	border-radius: 15px;
+}
+.userId{
+	position: absolute;
+	top: 38%;
+	left: 10%;
+}
+.userPwd{
+	position: absolute;
+	top: 48%;
+	left: 10%;
+}
+.userCode{
+	position: absolute;
+	top: 58%;
+	left: 10%;
+}
+.inputWhat{
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	left:0;
+	border-right: 2px solid #CCCCCC;
+}
+.inputWhat img{
+	height: 64%;
+	width: 54%;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-left: -27%;
+}
+.inputContent{
+	position: absolute;
+	right: 2%;
+	width: 76%;
+	height: 100%;
+	font-size: 3rem;
+	outline: none;
+	border:0
+}
+.inputCode{
+	height: 100%;
+	width: 40%;
+	position: absolute;
+	left:0;
+	border-right: 2px solid #CCCCCC;
+}
+.inputCode img{
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+}
+.codeContent{
+	position: absolute;
+	right: 2%;
+	width: 56%;
+	height: 100%;
+	font-size: 3rem;
+	outline: none;
+	border:0;
+}
+.rememberPwd{
+	position: absolute;
+	right: 10%;
+	width: 270px;
+	height:4rem;
+    top: 68%;
+    font-size: 3rem;
+    color: #fff;
+}
+.rememberPwd img{
+	height: 100%;
+	width: auto;
+}
+.rememberPwd span{
+	position: absolute;
+	right: 0;
+}
+.signIn{
+	position: absolute;
+	top: 78%;
+	left: 10%;
+	height: 120px;
+	width: 80%;
+	color: #fff;
+	text-align: center;
+	background-color: #49BE38;
+	font-size: 3rem;
+	border-radius: 15px;
+	border: 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MakeUp</title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/MakeUp.css">
+    <link rel="stylesheet" type="text/css" href="css/LeftandTop.css">
+</head>
+<body>
+    <div class="title">
+    	<p>西邮成绩</p>
+    	<img src="image/leftside.png" onclick="judgeleftshow()">
+    </div>
+    <div id="ShowLeft">
+        <div class="lefttop">
+            <img src="image/photo.png" id="userphoto">
+            <div id="leftname">XXX</div>
+        </div>
+        <div class="leftmid">
+            <div id="findscore" class="functionblank" onclick="ScoreFind()">
+                <img src="image/findscore.png">
+                <p>成绩查询</p>
+            </div>
+            <div id="exam" class="functionblank" onclick="judgeleftshow()">
+                <img src="image/exam.png">
+                <p>补考查询</p>
+            </div>
+              <div id="information" class="functionblank" onclick="InfoFind()">
+                <img src="image/information.png">
+                <p>信息查询</p>
+            </div>
+            <div id="library" class="functionblank" onclick="LibraryFind()">
+                <img src="image/library.png">
+                <p>图书查询</p>
+            </div>
+            <div id="cancel" class="functionblank" onclick="ReturnBack()">
+                <img src="image/cancel.png">
+                <p>注销</p>
+            </div>
+        </div>
+    </div>
+    <div class="makeupbody">
+        <div class="makeuptitle">补考查询</div>
+        <!-- <div class="makeup">
+            <div class="className">补考课程：工程制图与计算机制图A</div>
+            <div class="room">教室：B114</div>
+            <div class="seat">座位：22</div>
+            <div class="time">时间：2015年09月16日(19:00-21:00)</div>
+        </div> -->
+    </div>
+    <div class="bottom">西安邮电大学移动应用开发俱乐部</div>
+    <script type="text/javascript" src = "js/jquery.js"></script>
+    <script type="text/javascript" src = "js/jquery.cookie.js"></script>
+    <script type="text/javascript" src = "js/Left.js"></script>
+    <script type="text/javascript" src = "js/MakeUp.js"></script>
+</body>
+</html>

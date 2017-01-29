@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="css/Login.css">
+</head>
+<body>
+    <img src="image/back.png" class="backImg">
+    <img src="image/user_portrait.png" class="titleImg"> 
+    <div class="inputStyle userId">
+        <div class="inputWhat">
+            <img src="image/man.png">
+        </div>
+        <input type="text" id="username" class="inputContent" placeholder="请输入学号">
+    </div>
+    <div class="inputStyle userPwd">
+        <div class="inputWhat">
+            <img src="image/lock.png">
+        </div>
+        <input type="password" id="password" class="inputContent" placeholder="请输入密码">
+    </div>
+    <div class="inputStyle userCode">
+        <div class="inputCode">
+            <img src="" id="codeImg" onclick="getCodeimg()">
+        </div>
+        <input type="text" class="codeContent" id="vercode">
+    </div>
+    <button type="submit" class="signIn" onclick="signUp()">Sign In</button>
+    <script type="text/javascript" src = "js/jquery.js"></script>
+    <script type="text/javascript" src = "js/jquery.cookie.js"></script>
+    <script type="text/javascript" src = "js/Login.js"></script>
+</body>
+</html>
